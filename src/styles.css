@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(133, 164, 248) !important;
+}
+ul li {
+    background:rgb(72, 114, 231);
+    color: white;
+}
+.MuiListItemText-primary {
+
+    font-weight: 900 !important;
+    font-size: 1.4rem !important;
+}
+.MuiAvatar-circular {
+    margin-left: 20px;
+    background-color: white !important;
+    color: black !important;
+    font-weight: 900 !important;
+}
+ul li .MuiTypography-root {
+    color: white;
+}
+ul li:nth-child(4n+2) {
+    background: rgb(27, 73, 199);
+}
+ul li:nth-child(4n+3) {
+    background:  rgb(27, 73, 199);
+}
+/* ul li:nth-child(5n+1) {
+    background: orange;
+} */
