@@ -67,6 +67,12 @@ function App() {
       .then(items => {
         setList(items)
       })
+    setInterval(() => {
+      getList()
+      .then(items => {
+        setList(items)
+      })
+    },600000)
   }, [])
   
   const addPoints = (amount) => {
