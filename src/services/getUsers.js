@@ -1,5 +1,5 @@
 export function getList() {
-    return fetch('https://serenehate.backendless.app/api/data/cwp_users?where=team!=99&sortBy=%60points%60%20desc')
+    return fetch('https://serenehate.backendless.app/api/data/cwp_users?where=team!=99&sortBy=%60points%60%20desc&pageSize=60')
       .then(data => data.json())
   }
 
