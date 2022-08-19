@@ -156,18 +156,18 @@ function App() {
           <h2>{tag.points} punten</h2>
 
           <div>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(1)} >+50</Button>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(2)} >+100</Button>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(3)} >+200</Button>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(5)} >+500</Button>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(10)} >+1000</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(50)} >+50</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(100)} >+100</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(200)} >+200</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(500)} >+500</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(1000)} >+1000</Button>
           </div>
           <div style={{marginTop: 20}}>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-1)} >-50</Button>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-2)} >-100</Button>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-3)} >-200</Button>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-5)} >-500</Button>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-10)} >-1000</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-50)} >-50</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-100)} >-100</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-200)} >-200</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-500)} >-500</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-1000)} >-1000</Button>
           </div>
           <div style={{marginTop: 20}}>
             <Button sx={{margin:2}} variant="contained" size="large" onClick={() => setView('scan')}>Terug</Button>
