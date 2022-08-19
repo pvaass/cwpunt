@@ -156,18 +156,18 @@ function App() {
           <h2>{tag.points} punten</h2>
 
           <div>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(1)} >+1</Button>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(2)} >+2</Button>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(3)} >+3</Button>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(5)} >+5</Button>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(10)} >+10</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(1)} >+50</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(2)} >+100</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(3)} >+200</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(5)} >+500</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(10)} >+1000</Button>
           </div>
           <div style={{marginTop: 20}}>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-1)} >-1</Button>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-2)} >-2</Button>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-3)} >-3</Button>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-5)} >-5</Button>
-            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-10)} >-10</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-1)} >-50</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-2)} >-100</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-3)} >-200</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-5)} >-500</Button>
+            <Button sx={{margin:2}} variant="contained" size="large" onClick={() => addPoints(-10)} >-1000</Button>
           </div>
           <div style={{marginTop: 20}}>
             <Button sx={{margin:2}} variant="contained" size="large" onClick={() => setView('scan')}>Terug</Button>
